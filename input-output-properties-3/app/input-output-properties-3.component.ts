@@ -15,13 +15,18 @@ import {ZippyComponent} from './zippy.component';
     directives: [ZippyComponent]
 })
 export class InputOutputProperties3Component {
-    state: string = 'closed';
+    state: string = State.CLOSED;
     
     onOpen() {
-        this.state = 'opened';
+        this.state = State.OPENED;
     }
     
     onClose() {
-        this.state = 'closed';
+        this.state = State.CLOSED;
     }
+}
+
+class State {
+    public static OPENED: string = 'opened';
+    public static CLOSED: string = 'closed';
 }

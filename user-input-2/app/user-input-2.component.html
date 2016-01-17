@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Colors</h1>
+    <div class="list-group">
+        <a *ngFor="#color of colors; #i = index"
+            (click)="onSelect(i)"
+            [class.active]="i === selectedColor"
+            class="list-group-item"
+            href="#">
+            {{i + 1}}) {{color | lowercase}}
+        </a>
+    </div>
+    <div *ngIf="selectedColor >= 0" class="alert alert-success">
+        My favourite color is <strong>{{colors[selectedColor] | lowercase}}</strong>
+    </div>
+    <div class="input-group">
+        <input #color class="form-control">
+        <span class="input-group-btn">
+            <button (click)="addColor(color.value); color.value=''" class="btn btn-primary">Add</button>
+        </span>
+    </div>
+</div>

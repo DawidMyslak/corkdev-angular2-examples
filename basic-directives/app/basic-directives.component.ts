@@ -3,18 +3,19 @@ import {Component} from 'angular2/core';
 @Component({
     selector: 'basic-directives',
     template: `
-        <h1>{{title}}</h1>
-        <ul>
-            <li *ngFor="#color of colors">
-                {{color}}
-            </li>
-        </ul>
-        <p *ngIf="colors.length < 5">We have less than five colors</p>
-        <p *ngIf="colors.length > 3">We have more than three colors</p>
+        <div class="container">
+            <h1>{{title}}</h1>
+            <ul>
+                <li *ngFor="#color of colors">
+                    {{color}}
+                </li>
+            </ul>
+            <p *ngIf="colors.length > 3">We have more than 3 colors!</p>
+        </div>
     `
 })
 export class BasicDirectivesComponent {
-    title: string = 'Basic Directives';
+    title: string = 'Colors';
     colors: string[] = ['red', 'green', 'blue'];
     
     constructor() {

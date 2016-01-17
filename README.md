@@ -6,3 +6,5 @@ Examples:
 * hello-world
 * hello-world-2
 * basic-directives
+* user-input
+* user-input-2

@@ -7,7 +7,7 @@ import {GithubService} from './github.service';
     selector: 'http-and-observables',
     template: `
         <div class="container">
-            <h2>Github Repositories</h2>
+            <h2>GitHub Repositories</h2>
             <div class="form-group">
                 <label>Search</label>
                 <input [ngFormControl]="query" class="form-control">

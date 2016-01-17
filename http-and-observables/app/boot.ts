@@ -1,4 +1,4 @@
-import {bootstrap} from 'angular2/platform/browser'
+import {bootstrap} from 'angular2/platform/browser';
 import {JSONP_PROVIDERS} from 'angular2/http';
 import {HttpAndObservablesComponent} from './http-and-observables.component';
 import {GithubService} from './github.service';

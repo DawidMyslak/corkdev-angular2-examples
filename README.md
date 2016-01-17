@@ -12,6 +12,7 @@ Browse in the following order:
 * input-output-properties-3
 * dependency-injection
 * http-and-observables
+* routing
 
 # Installation
 

@@ -9,3 +9,5 @@ Examples:
 * user-input
 * user-input-2
 * two-way-binding
+* input-output-properties
+* input-output-properties-2

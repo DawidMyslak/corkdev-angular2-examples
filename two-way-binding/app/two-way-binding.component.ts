@@ -8,7 +8,7 @@ import {Component} from 'angular2/core';
             <ul class="list-group">
                 <li *ngFor="#color of colors; #i = index"
                     class="list-group-item">
-                    {{color}}
+                    {{color | lowercase}}
                     <button (click)="removeColor(i)" class="btn btn-link btn-xs pull-right">
                         <span class="glyphicon glyphicon-remove"></span>
                     </button>

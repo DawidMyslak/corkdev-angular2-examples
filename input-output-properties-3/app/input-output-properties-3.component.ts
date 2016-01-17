@@ -6,7 +6,7 @@ import {ZippyComponent} from './zippy.component';
     template: `
         <div class="container">
             <h1>Zippy</h1>
-            <div class="alert alert-info">Zippy is <strong>{{state}}</strong></div>
+            <div class="alert alert-info">Zippy state: <strong>{{state}}</strong></div>
             <zippy title="My title" (open)="onOpen()" (close)="onClose()">
                 My content
             </zippy>

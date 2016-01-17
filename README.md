@@ -12,3 +12,5 @@ Examples:
 * input-output-properties
 * input-output-properties-2
 * input-output-properties-3
+* dependency-injection
+* http-and-observables

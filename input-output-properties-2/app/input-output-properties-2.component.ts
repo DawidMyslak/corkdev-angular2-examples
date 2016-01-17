@@ -31,6 +31,6 @@ import {ZippyComponent} from './zippy.component';
     directives: [ZippyComponent]
 })
 export class InputOutputProperties2Component {
-    title: string = 'Title';
-    content: string = 'Content';
+    title: string = 'My title';
+    content: string = 'My content';
 }

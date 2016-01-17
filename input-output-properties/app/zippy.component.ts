@@ -6,10 +6,10 @@ import {Component, Input} from 'angular2/core';
         <div class="panel panel-default">
             <div (click)="toggle()" class="panel-heading">
                 <h3 class="panel-title">
-                    <span [ngClass]="{'glyphicon-triangle-bottom': isVisible, 'glyphicon-triangle-right': !isVisible}" class="glyphicon"></span> {{title}}
+                    <span [ngClass]="{'glyphicon-triangle-bottom': visible, 'glyphicon-triangle-right': !visible}" class="glyphicon"></span> {{title}}
                 </h3>
             </div>
-            <div [hidden]="!isVisible" class="panel-body">
+            <div [hidden]="!visible" class="panel-body">
                 <ng-content></ng-content>
             </div>
         </div>
@@ -26,9 +26,9 @@ import {Component, Input} from 'angular2/core';
 })
 export class ZippyComponent {
     @Input() title: string;
-    isVisible: boolean = false;
+    visible: boolean = false;
 
     toggle() {
-        this.isVisible = !this.isVisible;
+        this.visible = !this.visible;
     }
 }

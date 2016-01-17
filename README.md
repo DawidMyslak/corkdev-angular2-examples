@@ -11,3 +11,4 @@ Examples:
 * two-way-binding
 * input-output-properties
 * input-output-properties-2
+* input-output-properties-3

@@ -6,8 +6,8 @@ import {ZippyComponent} from './zippy.component';
     template: `
         <div class="container">
             <h1>Zippy</h1>
-            <zippy title="Title">
-                Content
+            <zippy title="My title">
+                My content
             </zippy>
         </div>
     `,

@@ -1,4 +1,4 @@
-import {Component, Input} from 'angular2/core';
+import {Component, Input, Output, EventEmitter} from 'angular2/core';
 
 @Component({
     selector: 'zippy',
@@ -26,9 +26,18 @@ import {Component, Input} from 'angular2/core';
 })
 export class ZippyComponent {
     @Input() title: string;
+    @Output() open: EventEmitter<any> = new EventEmitter();
+    @Output() close: EventEmitter<any> = new EventEmitter();
     visible: boolean = false;
 
     toggle() {
         this.visible = !this.visible;
+        
+        if (this.visible) {
+            this.open.emit(null);
+        }
+        else {
+            this.close.emit(null);
+        }
     }
 }

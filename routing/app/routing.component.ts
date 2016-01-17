@@ -10,12 +10,12 @@ import {InputOutputProperties2Component} from './../../input-output-properties-2
     template: `
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
-                    <ul class="nav navbar-nav">
-                        <li><a [routerLink]="['Sample1']">Sample 1</a></li>
-                        <li><a [routerLink]="['Sample2']">Sample 2</a></li>
-                        <li><a [routerLink]="['Sample3']">Sample 3</a></li>
-                        <li><a [routerLink]="['InputOutputProperties2']">Zippies</a></li>
-                    </ul>
+                <ul class="nav navbar-nav">
+                    <li><a [routerLink]="['Sample1']">Sample 1</a></li>
+                    <li><a [routerLink]="['Sample2']">Sample 2</a></li>
+                    <li><a [routerLink]="['Sample3']">Sample 3</a></li>
+                    <li><a [routerLink]="['InputOutputProperties2']">Zippies</a></li>
+                </ul>
             </div>
         </nav>
         <div class="wrapper">

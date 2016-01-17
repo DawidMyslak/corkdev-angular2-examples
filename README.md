@@ -8,3 +8,4 @@ Examples:
 * basic-directives
 * user-input
 * user-input-2
+* two-way-binding

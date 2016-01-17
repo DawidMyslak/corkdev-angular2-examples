@@ -6,11 +6,11 @@
             [class.active]="i === selectedColor"
             class="list-group-item"
             href="#">
-            {{i + 1}}) {{color | lowercase}}
+            {{i + 1}}) {{color}}
         </a>
     </div>
     <div *ngIf="selectedColor >= 0" class="alert alert-success">
-        My favourite color is <strong>{{colors[selectedColor] | lowercase}}</strong>
+        My favourite color is <strong>{{colors[selectedColor]}}</strong>
     </div>
     <div class="input-group">
         <input #color class="form-control">

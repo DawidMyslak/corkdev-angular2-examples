@@ -1,7 +1,5 @@
 # CorkDev.io Angular 2 examples
 
-Angular 2 examples for CorkDev.io talk
-
 Browse in the following order:
 * hello-world
 * hello-world-2
@@ -16,6 +14,9 @@ Browse in the following order:
 * http-and-observables
 
 # Installation
+
+Make sure to have the latest version of Node.js installed on your machine.
+
 ```bash
 git clone https://github.com/DawidMyslak/corkdev-angular2-examples.git
 cd corkdev-angular2-examples

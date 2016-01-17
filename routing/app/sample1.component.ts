@@ -5,7 +5,7 @@ import {Component} from 'angular2/core';
     template: `
         <div class="container">
             <h1>Sample 1</h1>
-            <p>Sample A/p>
+            <p>Sample A</p>
         </div>
     `,
 })

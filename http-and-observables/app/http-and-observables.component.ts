@@ -32,7 +32,7 @@ import {GithubService} from './github.service';
     `
 })
 export class HttpAndObservablesComponent {
-    items: Observable<Array<string>>;
+    items: Observable<Array<any>>;
     query: Control = new Control();
     
     constructor(private _githubService: GithubService) {

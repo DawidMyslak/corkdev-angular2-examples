@@ -6,7 +6,8 @@ import {Component, Input} from 'angular2/core';
         <div class="panel panel-default">
             <div (click)="toggle()" class="panel-heading">
                 <h3 class="panel-title">
-                    <span [ngClass]="{'glyphicon-triangle-bottom': visible, 'glyphicon-triangle-right': !visible}" class="glyphicon"></span> {{title}}
+                    <span [ngClass]="{'glyphicon-triangle-bottom': visible, 'glyphicon-triangle-right': !visible}" class="glyphicon"></span>
+                    {{title}}
                 </h3>
             </div>
             <div [hidden]="!visible" class="panel-body">

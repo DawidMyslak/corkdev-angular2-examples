@@ -1,5 +1,8 @@
 # CorkDev.io Angular 2 examples
 
+Video: https://youtu.be/c_YVA-Aa7gA
+Slides: http://www.slideshare.net/DawidMyslak/introduction-to-angular-2-57282058
+
 Browse in the following order:
 * hello-world
 * hello-world-2
